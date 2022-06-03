@@ -9,3 +9,8 @@
 - Difficulty: 1/10
 
 ### 2. Find Numbers with Even Number of Digits
+- File: `find_numbers_with_even_digits.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3237/
+- Description: Find how many numbers in array has even length (or digits)
+- Pattern: Convert int to str, if length of string is even, reflect as 1 in tuple. Finally, sum the tuple.
+- Difficulty: 1/10
