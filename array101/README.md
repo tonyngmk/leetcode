@@ -27,8 +27,10 @@
 - Link: https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3245/
 - Description: Duplicate zeros in array, shifting non-zero elements to the right.
 - Pattern: To use break to maintain array length. To have 2 pointers for writing and referencing value.
-- Edge case: If the shifted array last element is 0, do not count that as `possible_dup`.
-- Difficulty: 4/10
+- Edge case: If the shifted array last element is 0, do not count that as `possible_dup`, go directly to array and hard code 0 and shift to previous index.
+- Time: O(2n)
+- Space: O(1)
+- Difficulty: 3/10
 
 ### 5. Merge Sorted Array
 - File: `merge_sorted_array.py`
@@ -38,4 +40,4 @@
 - Edge case: Since we are slotting 2nd array to 1st, if all of 1st array has been used while 2nd array is not, we would have to dump array 2 into array 1 (starting from the back).
 - Time: O(N)
 - Space: O(1) 
-- Difficulty: 5/10 
+- Difficulty: 3/10 
