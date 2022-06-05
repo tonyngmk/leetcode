@@ -51,3 +51,13 @@
 - Time: O(2n)
 - Space: O(1) 
 - Difficulty: 2/10
+
+### 6. Remove duplicates from Sorted Array
+- File: `remove_duplicates_from_sorted_array.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/
+- Description: To remove duplicates of a sorted array, pushing forward unremoved elements to the start of array.
+- Pattern: 
+- Edge case: NIL
+- Time: 
+- Space: 
+- Difficulty: ?/10
