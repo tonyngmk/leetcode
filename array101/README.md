@@ -21,3 +21,10 @@
 - Description: Given ascending array with negative, return sorted array with elements squared
 - Pattern: Use double pointer (left and right), square only the abs(left / right) of which is greater, place this in the last element of array (or otherwise flip it later)
 - Difficulty: 2/10
+
+### 4. Duplicate Zeros
+- File: `duplicate_zeros.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3245/
+- Description: Duplicate zeros in array, shifting non-zero elements to the right.
+- Pattern: To use break to maintain array length. To have 2 pointers for writing and referencing value.
+- Difficulty: 4/10
