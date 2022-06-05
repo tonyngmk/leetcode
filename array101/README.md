@@ -28,3 +28,10 @@
 - Description: Duplicate zeros in array, shifting non-zero elements to the right.
 - Pattern: To use break to maintain array length. To have 2 pointers for writing and referencing value.
 - Difficulty: 4/10
+
+### 5. Merge Sorted Array
+- File: `merge_sorted_array.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3253/
+- Description: 
+- Pattern: 2 pointers to compare 2 array, 1 pointer for writing.
+- Difficulty: 5/10
