@@ -7,20 +7,26 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        m = 0 # pointer
-        k = 0
-        j = nums[0] # value of pointer
-        l = len(nums)
+        j = 1
+        length = len(nums)
 
-        for i in range(l):
-            if nums[i] == j:
+        for i in range(1, length):
+
+            # ### Aproach 1 ###
+            # if nums[i] != nums[i-1]:
+            #     nums[j] = nums[i]
+            #     j+=1
+
+            ### Aproach 2 ###
+            if nums[i] == nums[i-1]:
                 continue
             else:
-                nums[m] = j
-                k += 1
+                nums[j] = nums[i]
+                j+=1
 
-        return k, nums
+        return j
 
 solution = Solution()
 print(solution.removeDuplicates(nums))
+print(f"Input: {nums}")
 print("Answer: 5, nums = [0,1,2,3,4,_,_,_,_,_]")
