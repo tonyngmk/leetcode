@@ -52,7 +52,7 @@
 - Space: O(1) 
 - Difficulty: 2/10
 
-### 6. Remove duplicates from Sorted Array
+### 7. Remove duplicates from Sorted Array
 - File: `remove_duplicates_from_sorted_array.py`
 - Link: https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/
 - Description: To remove duplicates of a sorted array, pushing forward unremoved elements to the start of array.
@@ -61,3 +61,26 @@
 - Time: O(n)
 - Space: O(1)
 - Difficulty: 2/10
+
+### 8. Check if N and its double exists
+- File: `check_if_n_and_its_double_exists.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3250/
+- Description: Check if both N and 2N exists in an array. 
+- Pattern: Loop through array. Create a new hash map to store elements that you have "seen". If current iteration's value divided by 2 or multiplication of 2 value exists in "seen" map, returns True. Else, store current iteration value into hash map.
+- Edge case: NIL
+- Time: O(n), 1 pass
+- Space: O(n), new hash map
+- Difficulty: 1/10
+
+
+
+---
+### Template
+- File: `.py`
+- Link: 
+- Description: 
+- Pattern: 
+- Edge case: 
+- Time: 
+- Space: 
+- Difficulty: /10
