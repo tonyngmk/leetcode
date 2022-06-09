@@ -56,8 +56,8 @@
 - File: `remove_duplicates_from_sorted_array.py`
 - Link: https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/
 - Description: To remove duplicates of a sorted array, pushing forward unremoved elements to the start of array.
-- Pattern: 
+- Pattern: 2 pointers, 1 reader going through the array, 1 writer to write only if element is not equal to nums[j-1]. Final writer index would also be the total amount of distinct elements. 
 - Edge case: NIL
-- Time: 
-- Space: 
-- Difficulty: ?/10
+- Time: O(n)
+- Space: O(1)
+- Difficulty: 2/10
