@@ -7,6 +7,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+<<<<<<< Updated upstream
         j = 1
         length = len(nums)
 
@@ -25,6 +26,22 @@ class Solution(object):
                 j+=1
 
         return j
+=======
+        j = 0
+        length = len(nums)
+
+        for i in nums:
+            if nums[i] == nums[j]:
+                continue
+            else:
+                j+=1
+                nums[j] = nums[i]
+        
+        # for i in range(length-j):
+        #     nums.pop()
+
+        return j, nums
+>>>>>>> Stashed changes
 
 solution = Solution()
 print(solution.removeDuplicates(nums))
