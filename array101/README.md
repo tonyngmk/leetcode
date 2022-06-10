@@ -72,6 +72,15 @@
 - Space: O(n), new hash map
 - Difficulty: 1/10
 
+### 9. Valid Mountain Array
+- File: `valid_mountain_array.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3251/
+- Description: A valid mountain array is one where array starts from 0, continues to a peak without duplicates, and goes down to 0 without duplicates.
+- Pattern: Create 2 pointers. Left and right pointers can only move towards their opposite directions if the next element is greater than their current position. Both will end at the same peak (index) if array is a valid mountain.
+- Edge case: NIL
+- Time: O(n)
+- Space: O(1)
+- Difficulty: 2/10
 
 
 ---
