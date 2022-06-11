@@ -82,6 +82,16 @@
 - Space: O(1)
 - Difficulty: 2/10
 
+### 10. Replace element with greatest elements on right side
+- File: `replace_element_with_greatest_elements_on_right_side.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3259/
+- Description: Given an array, replace each index with the max value on its right.
+- Pattern: To start from the right. Current iteration calculates for next iteration. Calculation is max(max_int, current iteration). Replace current index with calculation of previous value.
+- Edge case: NIL.
+- Time: O(n), 1 pass.
+- Space: O(1), in place operation with only 1 constant created
+- Difficulty: 2/10
+
 
 ---
 ### Template
