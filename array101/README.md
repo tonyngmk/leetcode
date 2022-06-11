@@ -102,6 +102,15 @@
 - Space: O(1), in place array operation.
 - Difficulty: 2/10
 
+### 12. Sort Array by Parity
+- File: `sort_array_by_parity.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3260/
+- Description: Move even numbers forward
+- Pattern: Same with #11, just change condition for 0 to even numbers
+- Edge case: NIL
+- Time: O(N), 1 pass.
+- Space: O(1), in place array operation.
+- Difficulty: 2/10
 
 ---
 ### Template
