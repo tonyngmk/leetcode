@@ -46,10 +46,10 @@
 - File: `remove_elements.py`
 - Link: https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/
 - Description: Remove element in array, pushing forward all unremoved elements to the start of array.
-- Pattern: 2 pointers, 1 reader going through the array, 1 writer to write only if element is not val. To call .pop() array the amount of times val has occurred thereafter.
+- Pattern: 2 pointers, 1 reader going through the array. Swap value for read and write pointer if read pointer is not on value x, remove all elements after write pointer. 
 - Edge case: NIL
-- Time: O(2n)
-- Space: O(1) 
+- Time: O(n), 1 pass.
+- Space: O(1), in place operation.
 - Difficulty: 2/10
 
 ### 7. Remove duplicates from Sorted Array
@@ -112,15 +112,16 @@
 - Space: O(1), in place array operation.
 - Difficulty: 2/10
 
-### 13. Remove element
-- File: `remove_element.py`
-- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3575/
-- Description: Move even numbers forward
-- Pattern: Same with #11, just change condition for 0 to even numbers
+### 13. Height Checker 
+- File: `height_checker.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3228/
+- Description: Sort array by ascending, count the amount of times required for swap.
+- Pattern: Counting sort. Loop one pass to create a count-sort array. With count-sort array, loop through original array, if existing index of counting-sort array is not 0 and value of original array is not the same as index of counting-sort array, that index should not have that value (if it was sorted in the first place).
 - Edge case: NIL
-- Time: O(N), 1 pass.
-- Space: O(1), in place array operation.
-- Difficulty: 2/10
+- Time: O(N), 2 pass, 1 to create count-sort array, 1 more to find amount of differences.
+- Space: O(n), 1 more counting-sort array to be created.
+- Difficulty: 5/10, 🥵. To retry this again in the future.
+
 
 ---
 ### Template
