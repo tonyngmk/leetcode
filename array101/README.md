@@ -92,6 +92,16 @@
 - Space: O(1), in place operation with only 1 constant created
 - Difficulty: 2/10
 
+### 11. Move zeros
+- File: `move_zeros.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3157/
+- Description: Move zeros of array into end while preserving relative order
+- Pattern: Iterate throughout array, create another write pointer. If read pointer value not 0, then swap write and read pointer simultaneously.
+- Edge case: NIL
+- Time: O(N), 1 pass.
+- Space: O(1), in place array operation.
+- Difficulty: 2/10
+
 
 ---
 ### Template
