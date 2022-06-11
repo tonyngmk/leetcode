@@ -1,26 +1,23 @@
 nums = [3,2,2,3]; val = 3
 
 class Solution(object):
-    def removeElement(self, nums, val):
+    def removeElement(self, A, x):
         """
         :type nums: List[int]
         :type val: int
         :rtype: int
         """
-        
+
         j = 0
-        ignored = 0
-        length = len(nums)
-        for i in range(length):
-            if nums[i] == val:
-                ignored += 1
-                continue
-            else:
-                nums[j] = nums[i]
+        n = len(A)
+        for i in range(n):
+            if A[i] != x:
+                A[i], A[j] = A[j], A[i]
                 j += 1
-        for i in range(ignored):
-            nums.pop()
-        return nums
+            print(i, j, A)
+        
+        A = A[:j]
+        return j
 
 solution = Solution()
 print(solution.removeElement(nums, val))
