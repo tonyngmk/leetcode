@@ -133,6 +133,16 @@
 - Space: O(1), only constants are created.
 - Difficulty: 6/10, 🥵. To retry this again in the future.
 
+### 15. Third Maximum Number 
+- File: `third_maximum_number.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3231/
+- Description: Return the 3rd largest distinct number. If < 3 elements in array, return largest number.
+- Pattern: Use of set to efficiently de-duplicate numbers.
+- Edge case: NIL
+- Time: O(n), 2/4 pass
+- Space: O(n), potentially create 1 full set of same length as array.
+- Difficulty: 3/10. Similar to Kth largest element in array.
+
 
 ---
 ### Template
