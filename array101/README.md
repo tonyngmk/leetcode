@@ -123,6 +123,17 @@
 - Difficulty: 5/10, 🥵. To retry this again in the future.
 
 
+### 14. Max Consecutive Ones II 
+- File: `max_consecutive_ones_ii.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3230/
+- Description: Given a binary array, flip at most one time 0 to find the maximum consecutive range of 1s.
+- Pattern: Approach 1 is to max the sum of count of contiguous previous and current "1s" spaced by one 0. Approach 2 implements the sliding window with conditions that states valid and invalid windows, finding max length of window in each iteration.
+- Edge case: NIL
+- Time: O(n), 1 pass.
+- Space: O(1), only constants are created.
+- Difficulty: 6/10, 🥵. To retry this again in the future.
+
+
 ---
 ### Template
 - File: `.py`
