@@ -143,6 +143,15 @@
 - Space: O(n), potentially create 1 full set of same length as array.
 - Difficulty: 3/10. Similar to Kth largest element in array.
 
+### 16.   Find All Numbers Disappeared in an Array
+- File: `find_all_numbers_disappeared_in_an_array.py`
+- Link: https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3270/
+- Description: Find numbers that should be in array according to length of array.
+- Pattern: Use set to find not intersect.
+- Time: O(n)
+- Space: O(n)
+- Difficulty: 1/10
+
 
 ---
 ### Template
