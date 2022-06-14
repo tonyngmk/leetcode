@@ -14,7 +14,7 @@
 - `Rectangle` indicates Algorithms
 
 ```mermaid
-graph LR
+graph TB
     ds_arr{Array101} -- doing--> ds_ll{Linked List}
     ds_arr -- doing--> bs[Binary Search]
     ds_ll -- to do --> ds_stack{Stack}
