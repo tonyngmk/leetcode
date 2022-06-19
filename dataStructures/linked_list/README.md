@@ -6,7 +6,9 @@
 - Link: https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/
 - Description: Implement class and methods for linked list.
 - Pattern: NIL
-- Difficulty: 1/10
+- Difficulty: 5/10. Not easy to code from understanding, to revisit this.
+
+
 
 ---
 ### Template
