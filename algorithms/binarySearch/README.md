@@ -35,3 +35,11 @@
 - Description: Use binary search
 - Pattern: Implement binary search, left pointer will be 2, right will be number//2. If value**2 = number, then return True, else return False.
 - Difficulty: 2/10
+
+### 6. Find the Distance Value Between Two Arrays
+- File: `find_distance_between_two_arrays.py`
+- Link: https://leetcode.com/problems/find-the-distance-value-between-two-arrays/
+- Description: Use binary search
+- Pattern: Sort 1 of the 2 arrays to use binary search. Use binary search to reduce amount of elements looked through in sorted array and prevent O(n^2).
+- Difficulty: 2/10 (I don't fully get how binary search solves this problem?)
+- Time complexity: O(n log n)
