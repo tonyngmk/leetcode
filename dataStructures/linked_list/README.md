@@ -1,5 +1,6 @@
 # Linked List
 > Part of W3 (2022-06-13 - 2022-06-19)
+- Link: https://leetcode.com/explore/learn/card/linked-list/
 
 ### 1. Intro - Design Linked List
 - File: `design_linked_list.py`
@@ -20,4 +21,3 @@
 - Time: 
 - Space: 
 - Difficulty: /10
-    
