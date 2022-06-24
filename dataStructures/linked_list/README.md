@@ -9,7 +9,23 @@
 - Pattern: NIL
 - Difficulty: 5/10. Not easy to code from understanding, to revisit this.
 
+### 2. Linked list cycle I 
+- File: `linked_list_cycle.py`
+- Link: https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1212/
+- Description: Use Floyd's Tortoise and Hare algorithm to determine if linked list is a cycle when both slow and fast pointer intersect.
+- Pattern: Implement Floyd's Tortoise and Hare algorithm
+- Difficulty: 3/10. 
+- Time: O(n)
+- Space: O(1)
 
+### 2. Linked list cycle II 
+- File: `linked_list_cycle_2.py`
+- Link: https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1214/
+- Description: Use Floyd's Tortoise and Hare algorithm to determine if linked list is a cycle. If so, create 2 more pointers at head and intersection and traverse till both meets, that is guaranteed to be the entrance.
+- Pattern: Implement Floyd's Tortoise and Hare algorithm
+- Difficulty: 4/10, to revisit without help again. 
+- Time: O(n)
+- Space: O(1)
 
 ---
 ### Template
