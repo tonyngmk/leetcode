@@ -1,5 +1,5 @@
 # Binary Search
-> Part of learning algorithms after Array101 
+> Part of learning algorithms after Array101
 
 ### 1. Intro - Max Consecutive Ones 
 - File: `binary_search.py`
