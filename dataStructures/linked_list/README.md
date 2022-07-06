@@ -18,7 +18,7 @@
 - Time: O(n)
 - Space: O(1)
 
-### 2. Linked list cycle II 
+### 3. Linked list cycle II 
 - File: `linked_list_cycle_2.py`
 - Link: https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1214/
 - Description: Use Floyd's Tortoise and Hare algorithm to determine if linked list is a cycle. If so, create 2 more pointers at head and intersection and traverse till both meets, that is guaranteed to be the entrance.
@@ -26,6 +26,48 @@
 - Difficulty: 4/10, to revisit without help again. 
 - Time: O(n)
 - Space: O(1)
+
+
+### 4. Intersection of Two Linked List
+- File: `intersection_of_linked_list.py`
+- Link: 
+- Description: 
+- Pattern: 
+- Edge case: 
+- Time: 
+- Space: 
+- Difficulty: /10
+
+### 5. Reverse Linked List 
+- File: `.py`
+- Link: 
+- Description: 
+- Pattern: 
+- Edge case: 
+- Time: 
+- Space: 
+- Difficulty: /10
+
+
+### 6. Remove linked list elements
+- File: `remove_linked_list_elements.py`
+- Link: https://leetcode.com/problems/remove-linked-list-elements/
+- Description: Remove linked list element if node has certain value.
+- Pattern: Add Sentinel node to help return head value
+- Difficulty: 1/10, but revisit without help again.
+- Time: O(n)
+- Space: O(1)
+
+### 7. Odd even linked list
+- File: `odd_even_linked_list.py`
+- Link: https://leetcode.com/problems/odd-even-linked-list/
+- Description: Group odd indices nodes, then even indices nodes, and return them in a linked-list inplace  
+- Pattern: 
+- Difficulty: 3/10, but revisit without help again.
+- Time: O(n)
+- Space: O(1)
+
+
 
 ---
 ### Template
