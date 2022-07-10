@@ -10,17 +10,15 @@ class Solution(object):
         :type val: int
         :rtype: ListNode
         """
-        # Add sentinel node
         sentinel = ListNode(0)
         sentinel.next = head
+        i, j = sentinel, head
         
-        # Create pointers
-        prev, curr = sentinel, head
-        while curr:
-            if curr.val==val: # Node at curr pointer to remove
-                prev.next = curr.next # Join previous next pointer to curr's next pointer
+        while j:
+            if j.val == val:
+                i.next = j.next
             else:
-                prev = curr # Not a removal situation, move up prev's poitner
-            curr = curr.next # Always move up curr pointer
+                i = j
+            j = j.next
             
-        return sentinel.next # Header
+        return sentinel.next
