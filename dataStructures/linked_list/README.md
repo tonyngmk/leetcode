@@ -30,23 +30,20 @@
 
 ### 4. Intersection of Two Linked List
 - File: `intersection_of_linked_list.py`
-- Link: 
-- Description: 
-- Pattern: 
-- Edge case: 
-- Time: 
-- Space: 
-- Difficulty: /10
+- Link: https://leetcode.com/problems/intersection-of-two-linked-lists/
+- Pattern: Using 2 pointers which is guaranteed to intersect if linked list intersects.
+- Time: O(n+m), where n and m is the size of linked list for each linked list
+- Space: O(1), no extra space created
+- Difficulty: 4/10
 
 ### 5. Reverse Linked List 
-- File: `.py`
-- Link: 
-- Description: 
-- Pattern: 
-- Edge case: 
-- Time: 
-- Space: 
-- Difficulty: /10
+- File: `reverse_linked_list.py`
+- Link: https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1205/
+- Description: Reversing linked list iteratively
+- Pattern: Create 3 pointers: previous, current and next.
+- Time: O(n)
+- Space: O(1)
+- Difficulty: 2/10
 
 
 ### 6. Remove linked list elements
