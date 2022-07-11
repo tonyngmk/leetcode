@@ -45,8 +45,16 @@
 - Space: O(1)
 - Difficulty: 2/10
 
+### 6. Reverse linked list
+- File: `reverse_linked_list.py`
+- Link: https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1205/
+- Description: Return a linked list with its pointers reversed
+- Pattern: Use the 3 pointer technique (prev, curr, next) to change the direction of the pointers.
+- Time: O(n)
+- Space: O(1)
+- Difficulty: 1/10
 
-### 6. Remove linked list elements
+### 7. Remove linked list elements
 - File: `remove_linked_list_elements.py`
 - Link: https://leetcode.com/problems/remove-linked-list-elements/
 - Description: Remove linked list element if node has certain value.
@@ -55,7 +63,7 @@
 - Time: O(n)
 - Space: O(1)
 
-### 7. Odd even linked list
+### 8. Odd even linked list
 - File: `odd_even_linked_list.py`
 - Link: https://leetcode.com/problems/odd-even-linked-list/
 - Description: Group odd indices nodes, then even indices nodes, and return them in a linked-list inplace  
@@ -63,6 +71,34 @@
 - Difficulty: 3/10, but revisit without help again.
 - Time: O(n)
 - Space: O(1)
+
+### 9. Palindrome Linked List
+- File: `palindrome_linked_list.py`
+- Link: https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1209/
+- Description: 
+- Pattern: 
+- Time: 
+- Space: 
+- Difficulty: /10
+
+### 10. Merge Two Sorted Linked List
+- File: `.py`
+- Link: https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1227/
+- Description: Create new linked list and if pointer number of linked list is smaller
+- Pattern: Create two pointers for each linked list and add to a new one, join longer end of remaining list if there is nothing else to compare to
+- Time: O(n)
+- Space: O(1)
+- Difficulty: 3/10
+
+
+### 11. Add two Numbers
+- File: `add_two_numbers.py`
+- Link: https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1228/
+- Description: Create new linked list and add values of both pointers in separate linked list  
+- Pattern: To account for a carry number that brings value to next node of the linked list 
+- Time: O(n)
+- Space: O(n)
+- Difficulty: 3/10
 
 
 
@@ -72,7 +108,6 @@
 - Link: 
 - Description: 
 - Pattern: 
-- Edge case: 
 - Time: 
 - Space: 
 - Difficulty: /10
