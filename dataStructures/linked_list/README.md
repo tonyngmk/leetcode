@@ -75,14 +75,14 @@
 ### 9. Palindrome Linked List
 - File: `palindrome_linked_list.py`
 - Link: https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1209/
-- Description: 
-- Pattern: 
-- Time: 
-- Space: 
-- Difficulty: /10
+- Description: Find mid-way point, reverse linked list from mid-way point, compare linked-list from start and end of reversed ll.
+- Pattern: Use slow-fast pointer, use reverse linked list, comparison of mid-way point
+- Time: O(n)
+- Space: O(1)
+- Difficulty: 6/10, to redo without solution again
 
 ### 10. Merge Two Sorted Linked List
-- File: `.py`
+- File: `merge_two_sorted_linked_list.py`
 - Link: https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1227/
 - Description: Create new linked list and if pointer number of linked list is smaller
 - Pattern: Create two pointers for each linked list and add to a new one, join longer end of remaining list if there is nothing else to compare to
@@ -100,7 +100,26 @@
 - Space: O(n)
 - Difficulty: 3/10
 
+### 12. Flatten a multi-level doubly linked list
+- File: `flatten_multi_level_doubly_linked_list.py`
+- Link: https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1225/
+- Description: To do after trees 
+- Pattern: To do after trees 
+- Time: ?
+- Space: ?
+- Difficulty: Not done
 
+### 13. Insert into a Cylic Sorted List
+- File: `insert_into_cyclic_sorted_list.py`
+- Link: https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1226/
+- Description: To use two-pointer technique and account for all possible scenarios.
+- Pattern: 
+    - To iterate through 1 cycle of the linked list, looking for spots to insert where `insertVal` is between `prev.val` and `curr.val`.
+    - Since `head` is not the lowest value, there may be chance where `insertVal` belongs to the "start" or "end" in terms of value wise of the LL, hence to account for this as well. - To account for empty linked list as well, which is to return linked list of 1 node by itself.
+    - Even if linked list is not empty, if linked list is only of size 1, it should be just inserted as well.
+- Time: O(n)
+- Space: O(1)
+- Difficulty: 6/10, need a lot of help and must be very sharp on all scenarios and edge cases
 
 ---
 ### Template
