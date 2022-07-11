@@ -121,6 +121,33 @@
 - Space: O(1)
 - Difficulty: 6/10, need a lot of help and must be very sharp on all scenarios and edge cases
 
+### 14. Copy list with a random pointer
+- File: `.py`
+- Link: 
+- Description: Giddy after reading question, to attempt this at a later date.
+- Pattern: 
+- Time: 
+- Space: 
+- Difficulty: /10
+
+### 15. Rotate List 
+- File: `rotate_list.py`
+- Link: https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1295/
+- Description: To rotate list by using modulo operation, linking end of list to the start, and thereafter breaking link.
+- Pattern: In general, require good visualisation and understanding of linked list traversal. The modulo operation as well!
+- Time: O(n)
+- Space: O(1)
+- Difficulty: 4/10, to retry without help.
+
+### Template
+- File: `.py`
+- Link: 
+- Description: 
+- Pattern: 
+- Time: 
+- Space: 
+- Difficulty: /10
+
 ---
 ### Template
 - File: `.py`
