@@ -7,6 +7,15 @@
 - Space: NIL
 - Difficulty: 4/10, to retry without help
 
+### 2. Moving Average from Data Stream
+- File: `moving_average_from_data_stream.py`
+- Link: https://leetcode.com/problems/moving-average-from-data-stream/
+- Description: To implement deque (double-ended queue) or better circular queue using array. 
+- Pattern: Deque or circular queue using array.
+- Time: O(1)
+- Space: O(N)
+- Difficulty: 3/10, to retry without help
+
 ---
 ### Template
 - File: `.py`
