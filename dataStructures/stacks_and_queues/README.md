@@ -16,6 +16,18 @@
 - Space: O(N)
 - Difficulty: 3/10, to retry without help
 
+
+### 3. Walls and Gates
+- File: `walls_and_gates.py`
+- Link: https://leetcode.com/problems/walls-and-gates/solution/
+- Description: Rewrite the input array and mark empty rooms with the step to closest gate
+- Pattern: To use BFS from all gates per step
+- Time: O(m*n)
+- Space: O(m*n)
+- Difficulty: 5/10
+
+
+
 ---
 ### Template
 - File: `.py`
