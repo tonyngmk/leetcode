@@ -26,15 +26,32 @@
 - Space: O(m*n)
 - Difficulty: 5/10
 
-### 4. Walls and Gates
+### 5. Number of Islands
 - File: `number_of_islands.py`
 - Link: https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-queue/1374/
 - Description: To return the amount of valid islands denoted by "1"
 - Pattern: For each valid island of value "1", perform BFS unless it belongs to visited.
 - Time: O(m*n)
 - Space: O(m*n)
-- Difficulty: 4/10
+- Difficulty: 5/10
 
+### 6. Open the lock
+- File: `open_the_lock.py`
+- Link: https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-queue/1375/
+- Description: To find the minimum number of steps
+- Pattern: Find all possible ways in a single step with BFS, in this way we will definitely get minimum depth.
+- Time: O(N^2 * A^N + D), where N is the length of lock (4), A is the range for each slot (10), D is the number of deadends (variable).
+- Space: O(A^N + D), to store all combinations including an additional set for deadends.
+- Difficulty: 5/10
+
+### 6. Open the lock
+- File: `open_the_lock.py`
+- Link: https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-queue/1375/
+- Description: To find the minimum number of steps
+- Pattern: Find all possible ways in a single step with BFS, in this way we will definitely get minimum depth.
+- Time: O(N^2 * A^N + D), where N is the length of lock (4), A is the range for each slot (10), D is the number of deadends (variable).
+- Space: O(A^N + D), to store all combinations including an additional set for deadends.
+- Difficulty: 5/10
 
 ---
 ### Template
