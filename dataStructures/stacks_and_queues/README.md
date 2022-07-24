@@ -44,14 +44,11 @@
 - Space: O(A^N + D), to store all combinations including an additional set for deadends.
 - Difficulty: 5/10
 
-### 6. Open the lock
-- File: `open_the_lock.py`
-- Link: https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-queue/1375/
-- Description: To find the minimum number of steps
-- Pattern: Find all possible ways in a single step with BFS, in this way we will definitely get minimum depth.
-- Time: O(N^2 * A^N + D), where N is the length of lock (4), A is the range for each slot (10), D is the number of deadends (variable).
-- Space: O(A^N + D), to store all combinations including an additional set for deadends.
-- Difficulty: 5/10
+### 7. Perfect Squares
+- Skip this question for now, to revisit later
+
+
+### 8. 
 
 ---
 ### Template
