@@ -1,5 +1,6 @@
 """Python demo for sorting using VS Code Debug Visualizer."""
 
+# https://hediet.github.io/visualization/docs/visualization-data-schema.json
 
 def serialize(arr, compare_idx=0, target_idx=0):
     """Serialize an array into a format the visualizer can understand."""
