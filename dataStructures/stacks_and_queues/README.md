@@ -48,7 +48,14 @@
 - Skip this question for now, to revisit later
 
 
-### 8. 
+### 8. Min Stack
+- File: `min_stack.py`
+- Link: https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1360/
+- Description: Design a stack with a method to find min stack
+- Pattern: Basically just a list, but store an additional min value to refrain from call not needed min() function.
+- Time: NIL
+- Space: O(n)
+- Difficulty: 1/10
 
 ---
 ### Template
