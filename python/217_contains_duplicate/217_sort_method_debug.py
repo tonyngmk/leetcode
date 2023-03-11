@@ -35,4 +35,5 @@ class Solution:
 
 
 # assert(Solution().containsDuplicate([1,2,3,1])==True)
-assert(Solution().containsDuplicate([1,2,3])==False)
+# assert(Solution().containsDuplicate([1,2,3])==False)
+assert(Solution().containsDuplicate([6,5,4,3,2,1,7,7])==True)
