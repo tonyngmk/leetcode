@@ -9,7 +9,7 @@ class Solution:
         ans = curr = 0
         
         while root:
-            # if left, find pred
+            # Start with left
             if root.left:
                 pred = root.left
                 steps = 1
@@ -17,24 +17,23 @@ class Solution:
                     pred = pred.right
                     steps += 1
                     
+                # Create link
                 if not pred.right:
                     curr = curr * 10 + root.val
                     pred.right = root
                     root = root.left
 
-                # otherwise, find go right
+                # Break link
                 else:
                     if not pred.left: ans += curr
-                    for _ in range(steps):
-                        curr //= 10
+                    for _ in range(steps): curr //= 10
                     pred.right = None
                     root = root.right
 
+            # Reached the leftmost
             else:
                 curr = curr * 10 + root.val
                 if not root.right: ans += curr
                 root = root.right
                 
         return ans
-                
-                
