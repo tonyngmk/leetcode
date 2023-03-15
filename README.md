@@ -1,15 +1,12 @@
 # Leetcode Challenge
 
-### W1 (2022-05-30 - 2022-06-05)
-- To complete Array 101 with Python
+### 1. Sean Prashad List
+- https://seanprashad.com/leetcode-patterns/
+- Completed all easy and medium
+- Re-did all easy, re-doing medium now
 
-### W2 (2022-06-13 - 2022-06-19)
-- To complete Linked List with Python
-    - Delayed to 2022-07-11
-- To complete Binary Search with Python
-
-### W3 (2022-07-12 - 2022-07-17)
-- To complete Queues and Stacks
+### 2. Binary Search Study Plan
+- To complete all 3 parts
 
 ---
 ### Roadmap
