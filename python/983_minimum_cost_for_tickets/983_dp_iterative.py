@@ -1,15 +1,22 @@
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
+        cost = 0
+        last7, last30 = collections.deque(), collections.deque()
 
-        dp = [0] * (days[-1] + 1)
+        for day in days:
+            # clear unneeded space
+            while last7 and last7[0][0] + 7 <= day: last7.popleft()
+            while last30 and last30[0][0] + 30 <= day: last30.popleft()
+            
+            # calculate 7, 30 cost in current step
+            last7.append((day, cost + costs[1]))
+            last30.append((day, cost + costs[2]))
 
-        for i in range(1, len(dp)):
-            if i in days:
-                dp[i] = min(
-                    dp[max(i-1,0)] + costs[0],
-                    dp[max(i-7,0)] + costs[1],
-                    dp[max(i-30,0)] + costs[2],
-                )
-            else: dp[i] = dp[i-1]
+            # calculate minimum cost in current step
+            cost = min (
+                cost + costs[0],
+                last7[0][1],
+                last30[0][1]
+            )
 
-        return dp[-1]
+        return cost
